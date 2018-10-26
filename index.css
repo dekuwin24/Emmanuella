@@ -5,3 +5,14 @@ body{
   background-size: cover;
   -o-background-size: cover;
 }
+
+.navbar {
+  background: none;
+}
+.navbar-right {
+    float: right !important;
+  }
+  .navbar-nav > .nav-item{
+    margin-left:30px;
+    margin-right:30px;
+  }
