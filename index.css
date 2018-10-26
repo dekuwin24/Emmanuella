@@ -1,5 +1,5 @@
 body{
-  background: url('./img/background.jpg') no-repeat center center fixed;
+  background: url('./img/background1.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -16,3 +16,39 @@ body{
     margin-left:30px;
     margin-right:30px;
   }
+.circle-sq{
+  width: 500px;
+  height: 500px;
+  padding-top: 280px;
+  padding-left:43%;
+
+}
+.circle{
+  /* border-radius: 50%; */
+  background-image: url("./img/me.png");
+  background-size: cover;
+  background-color: pink;
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  border-style:solid;
+  border-right-width: 10px;
+  border-bottom-width: 0px;
+  border-left-width: 2px;
+  border-top-color: black;
+  border-bottom-color: black;
+  border-left-color: black;
+  border-right-color: black;
+}
+ .circle  p{
+padding-top: 50%;
+text-align: center;
+color: red;
+visibility: hidden;
+}
+.circle:hover  p{
+  /* background-color: blue; */
+  font-weight: bold;
+  color: white;
+  visibility: visible;
+}
