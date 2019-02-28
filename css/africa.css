@@ -1,0 +1,202 @@
+
+@import url('../index.css');
+
+/* body.africa{
+  background-color: #fe9601;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;              /* optional, center the image
+  filter: brightness(40%);
+  -webkit-filter:brightness(40%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+}
+
+ @media (min-width: 360px) {
+   .textB{
+     font-size: 18px;
+     top:35%;
+   }
+   .artB{
+     margin-top:0%;"
+
+   }
+   .artB1{
+     bottom:-70%;
+   }
+
+   .p1{
+     height:190px;
+   }
+
+}
+
+ @media (min-width: 576px) {
+   .textB{
+     font-size: 20px;
+     top:40%;
+   }
+   .artB{
+     margin-top:0%;"
+
+   }
+   .artB1{
+     bottom:-60%;
+   }
+
+   .p1{
+     height:260px;
+   }
+
+ }
+@media (min-width: 768px) {
+  .textB{
+    font-size: 20px;
+    top:30%;
+  }
+  .artB{
+    margin-top:0%;
+
+  }
+  .artB1{
+    bottom:-70%;
+  }
+
+  .p1{
+    height:300px;
+  }
+
+}
+@media (min-width: 992px){
+  .textB{
+    font-size: 25px;
+    top:25%;
+  }
+  .artB{
+    margin-top:0%;
+
+  }
+  .artB1{
+    bottom:-90%;
+  }
+
+
+  .p1{
+    height:350px;
+  }
+
+}
+@media (min-width: 1200px){
+  .textB{
+    font-size: 25px;
+    top:25%;
+  }
+  .artB{
+    margin-top:0%;
+
+  }
+  .p1{
+    height:500px;
+  }
+  .artB1{
+    bottom:-120%;
+  }
+
+
+}
+@media (min-width: 1400px){
+
+  .textB{
+    font-size: 30px;
+    top:30%;
+  }
+  .artB{
+    margin-top:0%;
+  }
+  .artB1{
+    bottom:-130%;
+  }
+
+  .p1{
+    height:500px;
+  }
+
+
+}
+
+/*---------------------AFRICA PAGE----------------------------------*/
+
+.box{
+  /* background-image: url("../img/AfricanArt0.png")!important; */
+  background-color:#fe9601;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;              /* optional, center the image */
+  filter: brightness(40%);
+  -webkit-filter:brightness(40%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 500px;
+  width:100%;
+
+}
+.textB{
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  filter: brightness(90%);
+  font-weight: bold;
+  font-family:arial, sans-serif;
+  /* margin-left:22%; */
+}
+
+.artB{
+  overflow:hidden;
+  /* padding:0% 1% 0% 1%; */
+  position:absolute;
+}
+
+.artB1{
+  overflow:hidden;
+  padding:0% 1% 0% 1%;
+  position:absolute;
+}
+
+/*---------------------Nation PAGE----------------------------------*/
+
+.boxNation{
+  /* background-image: url("../img/nation.jpg")!important; */
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;              /* optional, center the image */
+  /* filter: brightness(40%);
+  -webkit-filter:brightness(40%); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 500px;
+  width:100%;
+
+}
+/*---------------------Ruart PAGE----------------------------------*/
+
+
+.boxRuart{
+  /* background-image: url("../img/flower.jpg")!important; */
+  background-color:#cecece;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;              /* optional, center the image */
+  filter: brightness(40%);
+  -webkit-filter:brightness(40%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 500px;
+  width:100%;
+
+}
